@@ -9,6 +9,8 @@ from tensorboardX import SummaryWriter
 
 from dataset.transforms import VisualTransform, get_augmentation_transforms
 from dataset.dataloader import get_dataset_from_list
+from utils.utils import AverageMeter
+from utils.metrics import metric_report_from_dict
 
 
 class BaseTrainer:

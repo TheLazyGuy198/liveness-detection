@@ -24,7 +24,7 @@ def get_dataset_from_list(data_list_path, dataset_cls, transform, num_frames=100
     dataset_list = []
 
     for i in range(num_file):
-        face_label = int(face_labels.get(i)==0) # 0 means real face and non-zero represents spoof
+        face_label = int(face_labels.get(i) == 0)  # 0 means real face and non-zero represents spoof
         file_path = data_file_list.get(i)
 
         zip_path = root_dir + file_path
