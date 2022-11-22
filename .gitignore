@@ -185,8 +185,8 @@ fabric.properties
 .idea/
 
 runs/*
-data/*
-data/images/*
+dataset/*
+dataset/images/*
 results*.csv
 
 logs/
